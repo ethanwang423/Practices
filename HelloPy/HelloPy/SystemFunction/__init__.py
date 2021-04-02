@@ -1,10 +1,8 @@
 print("Ths is System package")
 import io
 
-class SystemManger:
-    file_name = ""
-    def setFilePath(self,filename):
-        self.file_name = filename
+
+
 
 class SystemHelper:
     def getHelpList(self):
