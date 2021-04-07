@@ -6,8 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class restapi {
-    public static void main(String[] args) {
-        SpringApplication.run(SpringBootApplication.class,args);
+public class Restapi {
+
+     public static void main(String[] args) {
+        SpringApplication.run(Restapi.class,args);
     }
 }
