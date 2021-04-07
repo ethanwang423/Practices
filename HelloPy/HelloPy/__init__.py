@@ -1,6 +1,6 @@
 import DataProvider
 import SystemFunction
-import NetworkManger
+from NetworkManger.SocketClient import SocketClient
 
 print("Start main process....")
 '''
@@ -12,5 +12,5 @@ data_provider.setFilePath(input("Please enter the file name:\n"))
 data_provider.readFileContent()
 '''
 #set socket client
-s_client = NetworkManger.SocketClient()
+s_client = SocketClient()
 s_client.setClient()

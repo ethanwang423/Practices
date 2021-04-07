@@ -17,5 +17,7 @@ class SocketServer:
             clientsocket.close()
 
 #Test part
+'''
 server = SocketServer()
 server.setServer()
+'''

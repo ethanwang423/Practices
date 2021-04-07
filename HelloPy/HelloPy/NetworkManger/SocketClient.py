@@ -12,5 +12,7 @@ class SocketClient:
         print(msg.decode('utf-8'))
 
 #Test
+'''
 client = SocketClient()
 client.setClient()
+'''
